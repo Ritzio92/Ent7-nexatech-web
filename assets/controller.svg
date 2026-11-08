@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" role="img" aria-label="NebulaPad controller">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6dfeb"/><stop offset="1" stop-color="#b8c1d8"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#b7f2a2" stop-opacity=".48"/><stop offset="1" stop-color="#b7f2a2" stop-opacity="0"/></radialGradient>
+<linearGradient id="metal" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#56657a"/><stop offset=".38" stop-color="#222c3d"/><stop offset="1" stop-color="#080e19"/></linearGradient>
+<linearGradient id="black" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#505d72"/><stop offset=".35" stop-color="#222b3b"/><stop offset="1" stop-color="#0c1220"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#243a62"/><stop offset=".5" stop-color="#131b33"/><stop offset="1" stop-color="#42a3ba"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fdfdff"/><stop offset=".35" stop-color="#bac5d0"/><stop offset="1" stop-color="#8896a5"/></linearGradient>
+<linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6ff9b"/><stop offset="1" stop-color="#93bb4e"/></linearGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="20"/></filter>
+<filter id="subtle" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="600" height="520" fill="url(#bg)"/>
+<circle cx="420" cy="140" r="270" fill="url(#halo)"/>
+<path d="M0 410 600 250" stroke="#fff" stroke-opacity=".24" stroke-width="1"/><path d="M0 440 600 280" stroke="#fff" stroke-opacity=".19" stroke-width="1"/>
+<circle cx="510" cy="80" r="98" fill="none" stroke="#fff" stroke-opacity=".19"/>
+<circle cx="510" cy="80" r="143" fill="none" stroke="#fff" stroke-opacity=".12"/>
+<ellipse cx="302" cy="421" rx="182" ry="24" fill="#152033" opacity=".19" filter="url(#shadow)"/>
+<g transform="rotate(-8 300 258)"><path d="M193 179Q245 149 310 176q70-30 125 14 36 32 56 124 10 69-34 76-25 4-56-36l-50-55H259l-51 55q-38 48-70 24-35-28-19-92 20-82 74-107Z" fill="url(#black)" stroke="#7d8fa0" stroke-width="8"/><rect x="187" y="243" width="96" height="26" rx="7" fill="#101b28"/><rect x="222" y="207" width="26" height="98" rx="7" fill="#101b28"/><circle cx="377" cy="226" r="14" fill="#d0f680"/><circle cx="418" cy="254" r="14" fill="#b8b6e9"/><circle cx="373" cy="288" r="14" fill="#ef9dad"/><circle cx="335" cy="258" r="14" fill="#8fd8e0"/><circle cx="260" cy="333" r="26" fill="#142136" stroke="#7a8c9b" stroke-width="6"/><circle cx="357" cy="333" r="26" fill="#142136" stroke="#7a8c9b" stroke-width="6"/><rect x="301" y="213" width="21" height="7" rx="3" fill="#c7fa7e"/></g>
+<text x="26" y="38" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3.5" fill="#ffffff" opacity=".70">NEXA / TECH</text><path d="M28 47h47" stroke="#fff" stroke-opacity=".6" stroke-width="2"/>
+</svg>
